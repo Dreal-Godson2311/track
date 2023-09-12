@@ -14,8 +14,8 @@ const server =  http.createServer((req,res) => {
                 'current_day': `${new Date().toLocaleDateString('en-us',{weekday:'long'})}`,
                 'utc_time': `${new Date().toISOString().split('.')[0]}Z`,
                 'track':`backend`,
-                'github_file_url': `https://github.com/Raekwon-OG/track-backend/blob/main/stage1/server.js`,
-                'github_repo_url': `https://github.com/Raekwon-OG/track-backend/`,
+                'github_file_url': `https://github.com/Dreal-Godson2311/track-backend/main/stage1/server.js`,
+                'github_repo_url': `https://github.com/Dreal-Godson2311/track-backend`,
                 'status_code': 200
             }))
         }
